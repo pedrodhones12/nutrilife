@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nutrilife | Perfumes e Remédios Naturais</title>
-
-  <!-- CSS EXTERNO CORRETO -->
   <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
+
   <header>
     <img src="img/perfume_PNG10271.png" alt="Logo Nutrilife">
     <h1>Nutrilife</h1>
@@ -24,9 +23,15 @@
         <li><a href="#">Contato</a></li>
       </ul>
     </nav>
+
+    <div class="social-buttons">
+      <button onclick="window.open('https://instagram.com','_blank')">Instagram</button>
+      <button onclick="window.open('https://facebook.com','_blank')">Facebook</button>
+      <button onclick="window.open('https://wa.me/','_blank')">WhatsApp</button>
+    </div>
   </header>
 
-  <!-- Banner rotativo -->
+  <!-- Banner -->
   <div class="banner">
     <img src="img/Nutri.png" class="active" alt="Banner 1">
     <img src="img/Banner para YouTube - Discover the Essence  of Hello Perfume.png" alt="Banner 2">
@@ -34,7 +39,6 @@
   </div>
 
   <h2 class="section-title">Perfumes em Destaque</h2>
-
   <section class="products">
     <div class="product-card">
       <img src="Imagem do WhatsApp de 2025-10-22 à(s) 21.32.02_9e175b07.jpg" alt="Perfume A">
@@ -59,7 +63,6 @@
   </section>
 
   <h2 class="section-title">Remédios Naturais</h2>
-
   <section class="products">
     <div class="product-card">
       <img src="Imagem do WhatsApp de 2025-10-22 à(s) 21.32.02_9e175b07.jpg" alt="Remédio A">
@@ -83,18 +86,11 @@
     </div>
   </section>
 
-  <div class="social-buttons">
-    <button onclick="window.open('https://instagram.com','_blank')">Instagram</button>
-    <button onclick="window.open('https://facebook.com','_blank')">Facebook</button>
-    <button onclick="window.open('https://wa.me/','_blank')">WhatsApp</button>
-  </div>
-
   <footer>
     <p>© 2025 Nutrilife - Todos os direitos reservados</p>
   </footer>
 
   <script>
-    // Script do banner rotativo
     const slides = document.querySelectorAll('.banner img');
     let index = 0;
 
