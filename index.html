@@ -4,26 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nutrilife | Perfumes e Remédios Naturais</title>
-  <style>
-    <link rel="stylesheet" href="style.css">
-   
-  </style>
+
+  <!-- CSS EXTERNO CORRETO -->
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <header>
     <img src="img/perfume_PNG10271.png" alt="Logo Nutrilife">
     <h1>Nutrilife</h1>
     <p>Saúde, beleza e bem-estar em um só lugar 🌿</p>
- <nav>
-    <ul>
-      <li><a href="#">Início</a></li>
-      <li><a href="#">Cosméticos</a></li>
-      <li><a href="#">Roupas</a></li>
-      <li><a href="sobre.html">Sobr.html</a>sobre</li>
-      <li><a href="#">Contato</a></li>
-    </ul>
-  </nav>
 
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Cosméticos</a></li>
+        <li><a href="#">Roupas</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
   <!-- Banner rotativo -->
@@ -34,6 +34,7 @@
   </div>
 
   <h2 class="section-title">Perfumes em Destaque</h2>
+
   <section class="products">
     <div class="product-card">
       <img src="Imagem do WhatsApp de 2025-10-22 à(s) 21.32.02_9e175b07.jpg" alt="Perfume A">
@@ -58,6 +59,7 @@
   </section>
 
   <h2 class="section-title">Remédios Naturais</h2>
+
   <section class="products">
     <div class="product-card">
       <img src="Imagem do WhatsApp de 2025-10-22 à(s) 21.32.02_9e175b07.jpg" alt="Remédio A">
@@ -80,12 +82,12 @@
       <button>Ver Detalhes</button>
     </div>
   </section>
-    <div class="social-buttons">
 
-    <button onclick="window.open('https://instagram.com','_blank')">instagram</button>
-      <button onclick="window.open('https://facebook.com','_blank')">Facebook</button>
-      <button onclick="window.open('https://wa.me/','_blank')">WhatsApp</button>
-    </div>
+  <div class="social-buttons">
+    <button onclick="window.open('https://instagram.com','_blank')">Instagram</button>
+    <button onclick="window.open('https://facebook.com','_blank')">Facebook</button>
+    <button onclick="window.open('https://wa.me/','_blank')">WhatsApp</button>
+  </div>
 
   <footer>
     <p>© 2025 Nutrilife - Todos os direitos reservados</p>
@@ -102,15 +104,15 @@
       slides[index].classList.add('active');
     }
 
-    setInterval(trocarSlide, 4000); // Troca a cada 4 segundos
+    setInterval(trocarSlide, 4000);
 
-    // Ação nos botões "Ver Detalhes"
     document.querySelectorAll('.product-card button').forEach(btn => {
       btn.addEventListener('click', () => {
         alert('Mais informações disponíveis em breve!');
       });
     });
   </script>
+
 </body>
 </html>
 
